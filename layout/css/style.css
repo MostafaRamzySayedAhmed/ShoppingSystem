@@ -1,0 +1,560 @@
+/* General Rules */
+
+body 
+{
+	background-color: #FFF;
+	font-size: 16px;
+	height: 3000px;
+}
+
+h1 
+{
+	font-size: 55px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #666;
+}
+
+.custom-hr 
+{
+	border-top: 1px solid #c9c9c9;
+}
+
+.message
+{
+	margin-top: 10px;
+}
+
+.message-success
+{
+	position: relative;
+	top: 50px;
+	padding: 25px;
+}
+
+.message-error
+{
+	position: relative;
+	top: 50px;
+	padding: 25px;
+}
+
+.message-redirect
+{
+	position: relative;
+	top: 150px;
+	padding: 25px;
+}
+
+.image .my-image
+{
+	position: relative;
+	left: -670px;
+	top: 30px;
+	max-width: 100px;
+	max-height: 80px;
+}
+
+.input-container 
+{
+	position: relative;
+}
+
+.asterisk 
+{
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    color: #D20707;
+}
+
+.nice-message 
+{
+	padding: 10px;
+	background-color: #FFF;
+	margin: 10px 0;
+	border-left: 5px solid #080;
+}
+
+.navbar 
+{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.nav > li > a, .navbar-brand 
+{
+	padding: 15px 12px;
+}
+
+.navbar-brand 
+{
+	font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu 
+{
+    background-color: #3498db;
+}
+
+.dropdown-menu 
+{
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a 
+{
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover 
+{
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+.form-control 
+{
+	position: relative;
+}
+
+/* Starting The Header Rules */
+
+.homepage
+{
+	margin-top: 15px;
+	text-decoration: none !important;
+	color: #9d9d9d;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.homepage:hover
+{
+	color: #EEE;
+}
+
+.upper-bar 
+{
+	padding: 5px;
+	margin-top: 3px;
+}
+
+.upper-bar .login-signup
+{
+	margin-bottom: 5px;
+}
+
+.upper-bar ul li
+{
+	background-color: #EEE;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.upper-bar ul li:hover
+{
+	margin-left: 5px;
+}
+
+.upper-bar ul li a
+{
+	color: #000;
+}
+
+.upper-bar ul li a:hover
+{
+	background-color: #337ab7;
+}
+
+.navbar-inverse .navbar-nav > li > a
+{
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover
+{
+	color: #EEE;
+}
+
+.my-image
+{
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.login-page form, .the-errors 
+{
+	max-width: 380px;
+	margin: auto;
+}
+
+.login-page form input 
+{
+	margin-bottom: 10px;
+}
+
+.login-page [data-class="login"].selected 
+{
+	color: #337AB7;
+}
+
+.login-page [data-class="signup"].selected 
+{
+	color: #5cb85c;
+}
+
+.login-page h1 
+{
+	color: #C0C0C0;
+}
+
+.login-page h1 span 
+{
+	cursor: pointer;
+}
+
+.login-page .signup 
+{
+	display: none;
+}
+
+.the-errors .msg 
+{
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #919191;
+}
+
+.the-errors .error 
+{
+    border-left: 5px solid #cd6858
+}
+
+.the-errors .success 
+{
+    border-left: 5px solid #00FF2C
+}
+
+/* Starting The Items Rules */
+
+.item-info h2 
+{
+	padding: 10px;
+	margin: 0;
+}
+
+.item-info p 
+{
+	padding: 10px;
+}
+
+.item-info ul li 
+{ 
+	padding: 10px;
+}
+
+.item-image
+{
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.item-info .item-image
+{
+	max-width: 150px;
+	max-height: 150px;
+	margin-bottom: 10px;
+	position: absolute;
+	right: 100px;
+	top: 120px;
+}
+
+.item-info ul li i
+{ 
+	display: inline-block;
+	margin-right: 7px;
+}
+
+a.edit-item
+{
+	display: block;
+	margin-left: 300px;
+}
+
+.item-info ul li:nth-child(odd) 
+{
+	background-color: #e8e8e8;
+}
+
+.show-item
+{
+	display: block;
+	margin-top: 50px;
+}
+
+.item-date 
+{
+	text-align: right;
+	font-size: 13px;
+	color: #AAA;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.item-info ul li span 
+{
+	display: inline-block;
+	width: 120px;
+}
+
+.tags-items
+{
+	background-color: #FFF!important;
+}
+
+.tags-items a
+{
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #666;
+    margin-right: 5px;
+	text-decoration: none;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.tags-items a:hover
+{
+	background-color: #888;
+	color: #EEE;
+}
+
+.item-box 
+{
+	position: relative;
+	margin-top: 20px;
+}
+
+.item-box .price-tag 
+{
+    background-color: #B4B4B4;
+    padding: 1px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+/* For Fixing The Problems Of DIVs That Happens Because Of The Different Sizes Of DIVs That Results From The Different Sizes Of Paragraphs s*/
+
+.item-box .caption h3 a
+{
+	position: relative;
+	top: 20px;
+}
+
+.item-box .caption p 
+{
+	margin-top: 25px;
+}
+
+.thumbnail span.approved
+{
+	font-weight: bold;
+	background-color: #0F0;
+    padding: 5px 7px;
+    position: absolute;
+	-webkit--moz-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	top: 28px;
+	right: -20px;
+	color: #FFF;
+}
+
+.thumbnail span.not-approved
+{
+	font-weight: bold;
+	background-color: #F00;
+    padding: 5px 7px;
+    position: absolute;
+	-webkit--moz-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	top: 57px;
+	right: -50px;
+	color: #FFF;
+}
+
+.thumbnail a>img, .thumbnail>img
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+/* Starting The Profile Rules */
+
+.profile-info 
+{
+	margin-top: 20px
+}
+
+.profile-info ul 
+{
+	padding: 0;
+	margin: 0;
+}
+
+.profile-info ul li 
+{
+	padding: 10px;
+}
+
+.profile-image
+{
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.profile-info .profile-image
+{
+	max-width: 150px;
+	max-height: 150px;
+	margin-bottom: 10px;
+	position: absolute;
+	right: 100px;
+	top: 120px;
+}
+
+.profile-info ul li i
+{
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.profile-info ul li
+{
+	margin-right: 20px;
+}
+
+.profile-info ul li:nth-child(odd) 
+{
+	background-color: #EEE;
+}
+
+.profile-info ul li span 
+{
+	display: inline-block;
+	width: 120px;
+}
+
+.profile-info a
+{
+	margin-top: 10px;
+}
+
+a.edit-profile
+{
+	display: block;
+}
+
+/* Starting The Comments Rules */
+
+.add-comment h2
+{
+	margin: 0 0 10px;
+}
+
+.add-comment textarea 
+{
+	display: block;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 120px;
+}
+
+.add-comment input
+{
+	display: inline-block;
+	margin-left: 380px;
+	margin-top: -5px;
+}
+
+.comment-box 
+{
+	margin-bottom: 20px;
+}
+
+.comment-box img 
+{
+	max-width: 100px;
+	margin-bottom: 5px;
+}
+
+.comment-box .lead 
+{
+	background-color: #e0e0e0;
+	position: relative;
+	padding: 10px;
+	margin-top: 25px;
+}
+
+.comment-box span
+{
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.comment-box:last-of-type .custom-hr
+/* .comment-box:last-child .custom-hr */
+{
+	display: none;
+}
+
+.comment-box .lead:before 
+{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
