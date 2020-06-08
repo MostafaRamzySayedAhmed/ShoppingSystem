@@ -24,4 +24,4 @@ It’s a Responsive Customers to Customers (C2C) E-Commerce System Provides The 
 * Boostrap
 * PHP
 * PHP (MySQLi)
-* MySQL
+* MySQL DB
