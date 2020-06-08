@@ -3,7 +3,8 @@ It’s a Responsive Customers to Customers (C2C) E-Commerce System Provides The 
 
 # The Features
 * The Responsive, Simple & Classic Design.
-* Fully Responsive Dashboard for Admins to Make All CRUD Operations on All of the System Modules (Users, Items, Categories & Comments).
+* Fully Responsive Dashboard for Admins to Make All CRUD Operations on All of the System Modules
+  (Users, Items, Categories & Comments).
 * The Admin Can Control the Activation of Users' Accounts.
 * The Admin Can Control the Approval of ADs Added by Users.
 * The Admin Can Control the Approval of Comments Added by Users.
