@@ -1,5 +1,5 @@
 # Shopping System
-It’s a Responsive Customers to Customers (C2C) E-Commerce System, Provideing The Basic Features That Users and Admins Need.
+It’s a Responsive Customers to Customers (C2C) E-Commerce System, Provideing The Basic Features That Users & Admins Need.
 
 # The Features
 * The Responsive, Simple & Classic Design.
