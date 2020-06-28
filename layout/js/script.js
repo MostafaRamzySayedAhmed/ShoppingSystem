@@ -16,7 +16,7 @@ $(document).ready(function(){
 		
 	});
 	
-	// Turning The Pasword Type Attribute Into Text On Mouse Moving & Turning It Back To Password On    Mouse Leaving
+	// Turning The Pasword Type Attribute Into Text On Mouse Moving & Turning It Back To Password On Mouse Leaving
 	
 	$(".show-pass").hover(function(){
 		
