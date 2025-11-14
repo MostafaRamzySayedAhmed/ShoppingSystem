@@ -1,5 +1,5 @@
 # Shopping System
-It’s a Fully Responsive Customers to Customers (C2C) E-Commerce System
+It’s a Fully Responsive Customers to Customers (C2C) E-Commerce System.
 
 # The Features
 * The Responsive, Simple & Classic Design.
